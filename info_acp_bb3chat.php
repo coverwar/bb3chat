@@ -20,15 +20,15 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_BB3CHAT' => 'BB3Chat',
-	'ACP_BB3CHAT_EXPLAIN' => 'Settings',
-	'ACP_BB3CHAT_CONFIG' => 'Settings',
+	'ACP_BB3CHAT_EXPLAIN' => 'Impostazioni',
+	'ACP_BB3CHAT_CONFIG' => 'Impostazioni',
 
-	'BB3CHAT_ENABLE' => 'Enable chat',
-	'BB3CHAT_ENABLE_OFF' => 'turn off',
-	'BB3CHAT_ENABLE_ON' => 'enable',
-	'BB3CHAT_ENABLE_AUTO' => 'enable with auto-login',
-	'BB3CHAT_ENABLE_READ' => 'read mode',
-	'BB3CHAT_ENABLE_EXPLAIN' => 'Allow chat, two options,
+	'BB3CHAT_ENABLE' => 'Abilita chat',
+	'BB3CHAT_ENABLE_OFF' => 'Spegni',
+	'BB3CHAT_ENABLE_ON' => 'Abilitare',
+	'BB3CHAT_ENABLE_AUTO' => 'abilitare con accesso automatico',
+	'BB3CHAT_ENABLE_READ' => 'modalità di lettura',
+	'BB3CHAT_ENABLE_EXPLAIN' => 'Consenti chat, due opzioni,
 		<br /><strong> option 1 </strong> enable chat, with auto-login: the user will enter the chat automatically, read mode: if the user is not logged in to the chat, only the chat message window will be displayed,
 		<br /><strong> option 2 </strong> full mode of operation, if enabled, the chat will display all user data of messages that are in the chat, otherwise only the data of users who are in the chat ',
 	'BB3CHAT_GUESTS' => 'Chat for guests',
