@@ -1,4 +1,4 @@
 # bb3chat 
-autore originale ext: ppk - http://www.ppkbb3cker.ru/
-phpbb-extension
-Traduzione ext completa in italiano 
+Autore: ppk - http://www.ppkbb3cker.ru/
+phpbb-extension: Vers. 3.3
+Traduzione ext. completa in Italiano 
