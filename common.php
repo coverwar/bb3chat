@@ -20,5 +20,5 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BB3CHAT' => 'Chat',
-	'BB3CHAT_WINDOW' => 'In the pop-up window',
+	'BB3CHAT_WINDOW' => 'Nella finestra pop-up',
 ));
