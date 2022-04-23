@@ -29,7 +29,7 @@ $lang = array_merge($lang, array(
 	'BB3CHAT_ENABLE_AUTO' => 'abilitare con accesso automatico',
 	'BB3CHAT_ENABLE_READ' => 'modalità di lettura',
 	'BB3CHAT_ENABLE_EXPLAIN' => 'Consenti chat, due opzioni,
-		<br /><strong> option 1 </strong> enable chat, with auto-login: the user will enter the chat automatically, read mode: if the user is not logged in to the chat, only the chat message window will be displayed,
+		<br /><strong> option 1 </strong> abilita chat, con auto-login: l-utente entrerà automaticamente nella chat, modalità lettura: se l-utente non è connesso alla chat, verrà visualizzata solo la finestra del messaggio della chat,
 		<br /><strong> option 2 </strong> full mode of operation, if enabled, the chat will display all user data of messages that are in the chat, otherwise only the data of users who are in the chat ',
 	'BB3CHAT_GUESTS' => 'Chat for guests',
 	'BB3CHAT_GUESTS_BYIP' => 'By IP address',
