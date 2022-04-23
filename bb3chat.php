@@ -20,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BB3CHAT' => 'Chat',
-	'BB3CHAT_GUEST' => 'Guest',
+	'BB3CHAT_GUEST' => 'Ospite',
 
 	'CHAT_EXIT' => 'Esci dalla chat',
         'CHAT_ENTER' => 'Entra nella chat',
