@@ -11,11 +11,11 @@
 
 se (! defined ( 'IN_PHPBB' )) 
 { 
-Uscita; 
+Exit; 
 } 
 if ( vuoto ( $ lang ) || ! is_array ( $ lang )) 
 { 
-	$ lang = matrice (); 
+	$ lang = matrix (); 
 } 
 
 $ lang = array_merge ( $ lang , array ( 
@@ -62,7 +62,7 @@ $ lang = array_merge ( $ lang , array (
 	'BB3CHAT_MARCHIVE_EXPLAIN' => 'Visualizza il numero di messaggi specificato nell-archivio (0 - non visualizza l-archivio), i messaggi più grandi di quelli specificati nell-opzione "input" saranno considerati archiviati "' , 
 	'BB3CHAT_MAXSMILES' => 'Numero massimo di emoticon' , 
 	'BB3CHAT_MAXSMILES_EXPLAIN' => 'Il numero massimo di emoticon in un messaggio di chat (imposta 0 per disabilitare la restrizione)' , 
-	'BB3CHAT_UMCLEAN' => 'Cancellare l'elenco di utenti, messaggi' , 
+	'BB3CHAT_UMCLEAN' => 'Cancellare l-elenco di utenti, messaggi' , 
 	'BB3CHAT_UMCLEAN_EXPLAIN' => 'Quattro opzioni, 
 <br /><strong> opzione 1 </strong> elimina tutti gli utenti della loro chat (tranne quelli bannati), 
 <br /><strong> opzione 2 </strong> riattiva tutti gli utenti bannati, 
@@ -125,7 +125,7 @@ $ lang = array_merge ( $ lang , array (
 	'BB3CHAT_ALLOW_POST_URL_EXPLAIN' => 'Devono essere assegnati i diritti utente corrispondenti' , 
 	'BB3CHAT_ALLOW_LINKS' => 'Consenti link nei messaggi' , 
 	'BB3CHAT_ALLOW_LINKS_LOCALEMAIL' => 'Locale ed e-mail' , 
-	'BB3CHAT_ALLOW_LINKS_EXPLAIN' => 'Se disabiliti l-opzione, tutti i link durante l-invio dei messaggi verranno eliminati o sostituiti con il testo dell'opzione sottostante (devono essere assegnati i diritti utente corrispondenti), questa opzione non disabilita l'uso dei link tramite codice bb [url]' , 
+	'BB3CHAT_ALLOW_LINKS_EXPLAIN' => 'Se disabiliti l-opzione, tutti i link durante l-invio dei messaggi verranno eliminati o sostituiti con il testo dell-opzione sottostante (devono essere assegnati i diritti utente corrispondenti), questa opzione non disabilita l'uso dei link tramite codice bb [url]' , 
 	'BB3CHAT_ALLOW_SMILIES' => 'Consenti emoticon' , 
 	'BB3CHAT_ALLOW_SMILIES_EXPLAIN' => '' , 
 
@@ -147,13 +147,13 @@ $ lang = array_merge ( $ lang , array (
 	'GIORNO' => 'd' , 
 	'DATA_PERIOD_SHORT' => array ( 'y' => 'g.' , 'm' => 'mese.' , 'd' => 'd.' , 'h' => 'ora.' , 'i' => 'min.' , 's' => 'sec.' ), 
 
-	'ACL_CAT_PPKEXT' => 'Estensioni PPK' , 
+	'ACL_CAT_PPKEXT' => 'Estensione PPK' , 
 
 	'ACL_U_CANVIEWCHATM' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: può vedere i messaggi della chat' , 
 	'ACL_U_CANVIEWCHATU' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: può vedere gli utenti della chat' , 
 	'ACL_U_CANDELCHATM' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: può eliminare i messaggi personali dalla chat' , 
 	'ACL_U_CANEDITCHATM' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: può modificare i messaggi della chat personale' , 
-	'ACL_U_CANADDCHATM' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: può inviare messaggi alla chat' , 
+	'ACL_U_CANADDCHATM' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: puo inviare messaggi alla chat' , 
 	'ACL_U_CANSKIPCHATKTIME' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: Può "bypassare" le restrizioni sul periodo di inattività nella chat' , 
 	'ACL_U_CANHIDDENINCHAT' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: potrebbe essere nascosto nella chat' , 
 	'ACL_U_CANVIEWHIDDINCHAT' => '<span style="font-weight:bold;color:#C000C0;"> BB3Chat </span>: può vedere gli utenti nascosti nella chat' , 
