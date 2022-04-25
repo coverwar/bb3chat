@@ -1,24 +1,24 @@
 <?php
 
-/** 
-* 
-* @pacchetto BB3Chat 
-* @copyright (c) PPK 2015 
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
-* 
-* 
-*/ 
+/**
+*
+* @package BB3Chat
+* @copyright (c) 2015 PPK
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*
+*/
 
-se (! defined ( 'IN_PHPBB' )) 
-{ 
-Exit; 
-} 
-if ( vuoto ( $ lang ) || ! is_array ( $ lang )) 
-{ 
-	$ lang = matrix (); 
-} 
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
-$ lang = array_merge ( $ lang , array ( 
+$lang = array_merge($lang, array(
 	'ACP_BB3CHAT' => 'BB3Chat' , 
 	'ACP_BB3CHAT_EXPLAIN'  =>  'Impostazioni' , 
 	'ACP_BB3CHAT_CONFIG'  =>  'Impostazioni' , 
@@ -69,7 +69,7 @@ $ lang = array_merge ( $ lang , array (
 <br /><strong> opzione 3 </strong> elimina i messaggi di chat obsoleti (tranne i messaggi archiviati), 
 <br /><strong> opzione 4 </strong> elimina i messaggi archiviati dalla chat ' , 
 	'BB3CHAT_AUTOKILL_ONPOST' => 'Espelli automaticamente all-invio' , 
-	'BB3CHAT_AUTOKILL_ONPOST_EXPLAIN' => automaticamente un utente dalla chat se il suo messaggio è stato inviato alla chat prima del ritardo impostato nell-opzione <u> Ritarda invio messaggi </u>' , 
+	'BB3CHAT_AUTOKILL_ONREFRESH_EXPLAIN' => 'Elimina automaticamente un utente dalla chat se la pagina della chat viene aggiornata con un ritardo impostato in precedenza nel <u> Aggiorna la finestra della chat </u> option',
 	'BB3CHAT_AUTOKILL_ONREFRESH' => 'Espulsione automatica durante l-aggiornamento' , 
 	'BB3CHAT_AUTOKILL_ONREFRESH_EXPLAIN' => automaticamente un utente dalla chat se la pagina della chat viene aggiornata con un ritardo precedentemente impostato nell-opzione <u> Aggiorna finestra chat </u>' , 
 	'BB3CHAT_ENABLE_PM' => 'Messaggi di chat privati' , 
